@@ -1,0 +1,89 @@
+{
+    "conversations": [
+        {
+            "user": "hello",
+            "intent": "casual talk",
+            "response": "That\u2019s interesting! Tell me more about that."
+        },
+        {
+            "user": "im sad",
+            "intent": "emotional support",
+            "response": "I'm here for you. Tell me more about how you're feeling."
+        },
+        {
+            "user": "i am heartbroken",
+            "intent": "emotional support",
+            "response": "I'm here for you. Tell me more about how you're feeling."
+        },
+        {
+            "user": "checking",
+            "intent": "advice",
+            "response": "That sounds important. What kind of advice do you need?"
+        },
+        {
+            "user": "hello",
+            "intent": "casual talk",
+            "response": "That\u2019s interesting! Tell me more about that."
+        },
+        {
+            "user": "hello",
+            "intent": "casual talk",
+            "response": "That\u2019s interesting! Tell me more about that."
+        },
+        {
+            "user": "im sad",
+            "intent": "emotional support",
+            "response": "I'm here for you. Tell me more about how you're feeling."
+        },
+        {
+            "user": "i really feel like im not being accepted",
+            "intent": "emotional support",
+            "response": "I'm here for you. Tell me more about how you're feeling."
+        },
+        {
+            "user": "i wanna take some time to improve upon myself",
+            "intent": "self-improvement",
+            "response": "Self-growth is great! What areas do you want to improve?"
+        },
+        {
+            "user": "physical areas",
+            "intent": "self-improvement",
+            "response": "Self-growth is great! What areas do you want to improve?"
+        },
+        {
+            "user": "my mental health is down",
+            "intent": "mental health",
+            "response": "Mental health is important. Do you want to talk about what\u2019s on your mind?"
+        },
+        {
+            "user": "yes",
+            "intent": "advice",
+            "response": "That sounds important. What kind of advice do you need?"
+        },
+        {
+            "user": "hello",
+            "intent": "casual talk",
+            "response": "That\u2019s interesting! Tell me more about that."
+        },
+        {
+            "user": "yo",
+            "intent": "casual talk",
+            "response": "That\u2019s interesting! Tell me more about that."
+        },
+        {
+            "user": "im sad",
+            "intent": "emotional support",
+            "response": "I'm here for you. Tell me more about how you're feeling."
+        },
+        {
+            "user": "im feeling sad",
+            "intent": "emotional support",
+            "response": "I'm here for you. Tell me more about how you're feeling."
+        },
+        {
+            "user": "i have past trauma",
+            "intent": "mental health",
+            "response": "Mental health is important. Do you want to talk about what\u2019s on your mind?"
+        }
+    ]
+}

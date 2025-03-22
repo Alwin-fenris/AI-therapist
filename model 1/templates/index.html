@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Therapist</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+        #chatbox { width: 50%; margin: auto; padding: 10px; border: 1px solid #ccc; height: 400px; overflow-y: scroll; }
+        input { width: 70%; padding: 10px; margin-top: 10px; }
+        button { padding: 10px; }
+    </style>
+</head>
+<body>
+    <h1>AI Therapist</h1>
+    <div id="chatbox"></div>
+    <input id="message" type="text" placeholder="Type a message..." />
+    <button onclick="sendMessage()">Send</button>
+
+    <script>
+        var socket = io();
+        
+        // Ensure that the listener is set only once
+        socket.on("message", function(response) {
+            document.getElementById("chatbox").innerHTML += "<p><b>Therapist:</b> " + response + "</p>";
+        });
+
+        function sendMessage() {
+            var message = document.getElementById("message").value;
+            document.getElementById("chatbox").innerHTML += "<p><b>You:</b> " + message + "</p>";
+            socket.send(message);
+            document.getElementById("message").value = "";
+        }
+    </script>
+</body>
+</html>
